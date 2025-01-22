@@ -4,7 +4,7 @@
   --primaryTextColor: #232e35; /* Untuk title atau judul */
   --secondaryTextColor: #656d72; /* Untuk text biasa seperti paragraph contohnya */
 
-  --borderColor: #f1f1f1;
+  --borderColor: #5f74ff;
   --lineColor: #d9d9d9; /* untuk line di pre-title */
 
   --primaryBackgroundColor: #fff;
@@ -370,3 +370,58 @@ nav ul li {
   padding: 0 1rem;
 }
 
+#contact {
+  padding: var(--sectionPadding);
+}
+
+.contact {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+}
+
+.contact-form div {
+  margin-bottom: 1.4rem;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 0.75rem 1.3rem;
+  font-family: "Roboto", sans-serif;
+  background: lightblue;
+  border: 1px solid var(--borderColor);
+  border-radius: 3px;
+  resize: none;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #6d94be;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border: 1px solid #4c5df9;
+  box-shadow: rgba(3, 0, 56, 0.258) 0px 0px 20px;
+  transform: scale(1.009);
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 0.75rem 1.3rem;
+  background-color: var(--primaryIconColor);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-submit:hover {
+  background-color: var(--primaryIconColorHover);
+  box-shadow: rgba(3, 0, 56, 0.781) 0px 7px 30px;
+  transform: scale(1.05);
+}
