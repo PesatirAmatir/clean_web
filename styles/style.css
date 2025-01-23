@@ -264,6 +264,18 @@ nav ul li {
   object-fit: cover;
 }
 
+.portfolio-cover video {
+  width: fit-content;
+  height: auto;
+  object-fit: cover;
+}
+
+.portfolio iframe {
+  width: fit-content;
+  height: 100%;
+  object-fit: cover;
+}
+
 .portfolio-info {
   padding: 2rem 1.5rem;
 }
@@ -397,7 +409,7 @@ nav ul li {
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-  color: #6d94be;
+  color: lightblue;
   font-family: "Roboto", sans-serif;
 }
 
@@ -424,4 +436,46 @@ nav ul li {
   background-color: var(--primaryIconColorHover);
   box-shadow: rgba(3, 0, 56, 0.781) 0px 7px 30px;
   transform: scale(1.05);
+}
+
+.contact-item-icon {
+  background: rgb(222, 237, 243);
+  padding: 0.3rem 0.5rem;
+  width: 53px;
+  height: 53px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s ease-in-out;
+}
+
+.contact-item-icon:hover {
+  box-shadow: rgba(3, 0, 56, 0.781) 0px 7px 30px;
+  transform: scale(1.2);
+}
+
+.contact-item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-item-detail h4 {
+  margin-bottom: 0.6rem;
+}
+
+/* footer section  */
+footer {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.footer-icons a svg {
+  margin: 0 .5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.footer-icons a svg:hover {
+  transform: scale(1.4);
 }
