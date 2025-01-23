@@ -30,6 +30,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: lightblue;
+  color: rgb(6, 19, 134);
 }
 
 h1,
@@ -211,8 +212,8 @@ nav ul li {
 }
 
 .service:hover {
-  box-shadow: rgba(0, 0, 0, 0.299) 0px 0px 35px;
-  transform: scale(1.2);
+  box-shadow: rgba(0, 0, 0, 0.299) 0px 0px 25px;
+  transform: scale(1.07);
 }
 
 .service h4 {
@@ -462,12 +463,12 @@ nav ul li {
 }
 
 .contact-item-detail h4 {
-  margin-bottom: 0.6rem;
+  margin: 0.6rem;
 }
 
 /* footer section  */
 footer {
-  padding: 4rem 0;
+  padding: 3rem 0;
   text-align: center;
 }
 
@@ -478,4 +479,9 @@ footer {
 
 .footer-icons a svg:hover {
   transform: scale(1.4);
+}
+
+.footer-copyright {
+  padding: 1rem;
+  font-family: "Roboto", sans-serif;
 }
