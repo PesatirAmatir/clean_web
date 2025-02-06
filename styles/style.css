@@ -207,7 +207,7 @@ nav ul li {
   text-align: center;
   background: lightblue;
   border-radius: var(--itemBorderRadius);
-  margin: 0 3rem;
+  margin: 1.3rem 3rem;
   transition: 0.3s ease-in-out;
 }
 
@@ -244,6 +244,7 @@ nav ul li {
   overflow: hidden; /* supaya gambar yang diatas itu dia ngikut border radiusnya, karena yang dikasih border radius disini adalah div portfolio ini */
   border: 1px solid var(--borderColor);
   transition: 0.3s ease-in-out;
+  margin: 0.8rem 0.2rem;
 }
 
 
